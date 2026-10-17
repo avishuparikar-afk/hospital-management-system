@@ -1,0 +1,34 @@
+PASS Empty first launch
+PASS Blank patient rejected
+PASS Invalid age rejected
+PASS Invalid contact rejected
+PASS Patient ID generated
+PASS Unknown patient rejected
+PASS Invalid calendar date rejected
+PASS Appointment saved
+PASS Doctor clash rejected
+PASS Patient clash rejected
+PASS Blank note rejected
+PASS Medical note saved
+PASS Invalid amount rejected: NaN
+PASS Invalid amount rejected: Infinity
+PASS Invalid amount rejected: -1
+PASS Invalid amount rejected: 0
+PASS Invalid amount rejected: 1.001
+PASS Exact decimal amount retained
+PASS Unknown bill rejected
+PASS Payment flag updated
+PASS All record types reload after restart
+PASS IDs continue after reload
+PASS Failed write leaves memory unchanged
+PASS Malformed count prevents startup
+PASS GUI rejects nonnumeric age
+PASS Register button updates patient table
+PASS Appointment button updates table
+PASS Note button updates table
+PASS Bill button creates unpaid bill
+PASS Payment requires row selection
+PASS Payment button updates status
+PASS GUI actions persist to disk
+TOTAL: 32 checks passed. Screenshots rendered from actual Swing panels.
+Native desktop window and OS interactions require a local smoke test.

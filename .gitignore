@@ -1,0 +1,8 @@
+build/
+*.class
+records.properties
+hospital-demo-records.json
+screenshots/
+.DS_Store
+.openai/
+dist/

@@ -1,0 +1,31 @@
+PASS starts empty
+PASS rejects blank name
+PASS rejects invalid age
+PASS rejects decimal age
+PASS rejects invalid contact
+PASS generates patient ID
+PASS rejects unknown patient
+PASS rejects invalid calendar date
+PASS rejects invalid time
+PASS books valid appointment
+PASS rejects doctor clash ignoring case
+PASS rejects patient clash
+PASS rejects blank note
+PASS saves medical note
+PASS rejects amount NaN
+PASS rejects amount Infinity
+PASS rejects amount -50
+PASS rejects amount 0
+PASS rejects amount 1.001
+PASS rejects amount 1e5
+PASS preserves exact decimal cents
+PASS formats Indian currency
+PASS marks existing bill paid
+PASS rejects unknown bill
+PASS reloads all data from storage
+PASS failed save leaves current memory unchanged
+PASS loads a complete fictional dataset
+PASS sample does not overwrite existing records
+PASS reset persists empty state
+PASS invalid saved schema rejected
+TOTAL: 30 browser-model checks passed.
